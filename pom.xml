@@ -38,7 +38,11 @@
     <artifactId>poi-ooxml</artifactId>
     <version>4.1.2</version>
 </dependency>
-
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version>
+</dependency>
 <!-- This dependency is used for file related actions -->
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 <dependency>
