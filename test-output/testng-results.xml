@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-21T12:38:21 IST" name="Default suite" finished-at="2022-09-21T12:39:18 IST" duration-ms="57074">
+    <groups>
+    </groups>
+    <test started-at="2022-09-21T12:38:21 IST" name="Default test" finished-at="2022-09-21T12:39:18 IST" duration-ms="57074">
+      <class name="vtiger.Practice.CalenderPopUp">
+        <test-method signature="selectFutureDate()[pri:0, instance:vtiger.Practice.CalenderPopUp@6f46426d]" started-at="2022-09-21T12:38:21 IST" name="selectFutureDate" finished-at="2022-09-21T12:39:18 IST" duration-ms="57042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFutureDate -->
+      </class> <!-- vtiger.Practice.CalenderPopUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
