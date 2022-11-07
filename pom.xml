@@ -3,7 +3,10 @@
   <groupId>Qsp</groupId>
   <artifactId>WASM_5_Framework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
+<properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   <dependencies>
   <!-- This is for automation -->
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -20,7 +23,11 @@
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.16</version>
 </dependency>
-
+<dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.22</version>
+</dependency>
 <!-- This is used to read and write data into excel sheet -->
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 <dependency>
@@ -35,7 +42,11 @@
     <artifactId>poi-ooxml</artifactId>
     <version>4.1.2</version>
 </dependency>
-
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version>
+</dependency>
 <!-- This dependency is used for file related actions -->
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 <dependency>
